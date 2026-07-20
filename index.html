@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Контакты</title>
+
+<meta name="theme-color" content="#111111">
+<meta name="description" content="Контактная информация">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="X-Content-Type-Options" content="nosniff">
+<meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
+
+<link rel="manifest" href="manifest.json">
+
+<link rel="icon" href="favicon.ico">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div id="particles"></div>
+
+<div class="background"></div>
+
+<main class="card">
+
+<div class="avatar">
+
+<div class="avatar-circle">
+
+👤
+
+</div>
+
+</div>
+
+<h1 id="title">
+
+Мои контакты
+
+</h1>
+
+<p class="subtitle">
+
+Свяжитесь со мной удобным способом
+
+</p>
+
+<div class="buttons">
+
+<button class="contact-btn phone"
+onclick="openPhone()">
+
+📞
+
+<span>
+
+Позвонить
+
+</span>
+
+</button>
+
+<button class="contact-btn copy"
+onclick="copyPhone()">
+
+📋
+
+<span>
+
+Копировать номер
+
+</span>
+
+</button>
+
+<a id="telegram"
+class="contact-link"
+target="_blank"
+rel="noopener noreferrer">
+
+<div class="contact-btn">
+
+✈️
+
+<span>
+
+Telegram
+
+</span>
+
+</div>
+
+</a>
+
+<a id="whatsapp"
+class="contact-link"
+target="_blank"
+rel="noopener noreferrer">
+
+<div class="contact-btn">
+
+🟢
+
+<span>
+
+WhatsApp
+
+</span>
+
+</div>
+
+</a>
+
+<a id="facebook"
+class="contact-link"
+target="_blank"
+rel="noopener noreferrer">
+
+<div class="contact-btn">
+
+📘
+
+<span>
+
+Facebook
+
+</span>
+
+</div>
+
+</a>
+
+<a id="instagram"
+class="contact-link"
+target="_blank"
+rel="noopener noreferrer">
+
+<div class="contact-btn">
+
+📷
+
+<span>
+
+Instagram
+
+</span>
+
+</div>
+
+</a>
+
+</div>
+
+<div class="footer">
+
+<p>
+
+© <span id="year"></span>
+
+Все права защищены.
+
+</p>
+
+<p class="warning">
+
+* Instagram и Facebook принадлежат компании Meta.
+
+Деятельность Meta признана экстремистской организацией и запрещена на территории Российской Федерации.
+
+</p>
+
+</div>
+
+</main>
+
+<div id="toast">
+
+Скопировано!
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
