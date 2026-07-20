@@ -7,23 +7,23 @@
 const CONTACTS = {
 
 
-    phone: "+79999999999",
+    phone: "+7 (996) 535-72-31",
 
 
     telegram:
-    "https://t.me/USERNAME",
+    "https://t.me/mishahili",
 
 
     whatsapp:
-    "https://wa.me/79999999999",
+    "https://wa.me/qr/QWARXQTYSIKCJ1",
 
 
     facebook:
-    "https://facebook.com/USERNAME",
+    "временно отсутствует",
 
 
     instagram:
-    "https://instagram.com/USERNAME"
+    "https://www.instagram.com/mapper_from_serbiayt?igsh=MXQxNTg2Zjk0aXlnMg=="
 
 
 };
